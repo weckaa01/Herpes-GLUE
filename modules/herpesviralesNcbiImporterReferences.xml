@@ -1,0 +1,18 @@
+<!-- Parvoviridae genus reference sequences from NCBI -->
+<ncbiImporter>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs</sourceName>
+  <specificPrimaryAccessions>
+
+    <!-- Alphaherpesvirinae -->
+
+    <!-- Psittacid herpesvirus 1 (Iltovirus) -->
+    <primaryAccession>NC_005264</primaryAccession>
+
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
+
+
+

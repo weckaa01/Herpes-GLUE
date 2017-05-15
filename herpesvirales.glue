@@ -1,0 +1,25 @@
+delete project herpesvirales
+
+create project herpesvirales "GLUE project for the herpesvirales" --minVersion 0.1.50
+
+schema-project herpesvirales
+
+	run file glue/herpesviralesFieldDefinitions.glue
+
+exit
+
+project herpesvirales
+
+  run file glue/projectSettings.glue
+ 
+  # Import NCBI reference sequences 	
+  import source sources/ncbi-refseqs
+
+  # EVE sequences
+  import source sources/eve-fasta
+    
+  # populate certain fields XML config
+  create module --fileName modules/herpesviralesGenbankXmlPopulator.xml genbankXmlPopulator
+  module genbankXmlPopulator populate
+
+exit
