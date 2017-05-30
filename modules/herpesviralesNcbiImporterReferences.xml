@@ -5,10 +5,78 @@
   <sourceName>ncbi-refseqs</sourceName>
   <specificPrimaryAccessions>
 
-    <!-- Alphaherpesvirinae -->
+    <!-- Herpesviridae -->
+	<!-- Alphaherpesvirinae -->
 
     <!-- Psittacid herpesvirus 1 (Iltovirus) -->
     <primaryAccession>NC_005264</primaryAccession>
+	
+	<!-- Gallid herpesvirus 1 (Mardivirus) -->
+    <primaryAccession>NC_002229</primaryAccession>
+	
+	<!-- Chelonid herpesvirus 5 (Scutavirus) -->
+    <primaryAccession>AY644454</primaryAccession>
+	
+	<!-- Human herpesvirus 1 (Simplexvirus) -->
+    <primaryAccession>NC_001798</primaryAccession>
+	
+	<!-- Human herpesvirus 2 (Simplexvirus) -->
+    <primaryAccession>NC_001798</primaryAccession>
+	
+	<!-- Human herpesvirus 3 (Varicellovirus) -->
+    <primaryAccession>NC_001348</primaryAccession>
+
+	
+	<!-- Betaherpesvirinae -->
+
+    <!-- Human herpesvirus 5 (Cytomegalovirus) -->
+    <primaryAccession>NC_006273</primaryAccession>
+	
+	<!-- Murine herpesvirus 1 (Muromegalovirus) -->
+    <primaryAccession>NC_004065</primaryAccession>
+	
+	<!-- Human herpesvirus 6A (Roseolovirus) -->
+    <primaryAccession>NC_001664</primaryAccession>
+	
+	<!-- Human herpesvirus 6B (Roseolovirus) -->
+    <primaryAccession>NC_000898</primaryAccession>
+	
+	<!-- Elephantid herpesvirus 1 (Proboscivirus) -->
+    <primaryAccession>AF322977</primaryAccession>
+
+	
+	<!-- Gammaherpesvirinae -->
+	
+	<!-- Human herpesvirus 4 Raji B95-8  (Lymphocryptovirus) -->
+    <primaryAccession>NC_007605</primaryAccession>
+	
+	<!-- Human herpesvirus 4 strain AG876 (Lymphocryptovirus) -->
+    <primaryAccession>NC_009334</primaryAccession>
+	
+	<!-- Alcelaphine herpesvirus 1 (Macavirus) -->
+    <primaryAccession>NC_002531</primaryAccession>
+	
+	<!-- Equid herpesvirus 2 (Percavirus) -->
+    <primaryAccession>NC_001650</primaryAccession>
+	
+	<!-- Saimiriine herpesvirus 2 (Rhadinovirus) -->
+    <primaryAccession>NC_001350</primaryAccession>
+
+	
+	<!-- Alloherpesviridae -->
+	
+	<!-- Ranid herpesvirus 1 (Bactrachovirus) -->
+    <primaryAccession>NC_008211</primaryAccession>
+	
+	<!-- Anguilid herpesvirus 1 (Cyprinivirus) -->
+    <primaryAccession>NC_013668</primaryAccession>
+	
+	<!-- Ictalurid herpesvirus 1 (Ictalurivirus) -->
+    <primaryAccession>NC_001493</primaryAccession>
+	
+	<!-- Salmonid herpesvirus 1 (Salmonivirus) -->
+    <primaryAccession>AF023673</primaryAccession>
+	
 
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
